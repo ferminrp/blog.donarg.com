@@ -1,0 +1,45 @@
+#header {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+#header p {
+  margin-bottom: 0rem;
+}
+
+#header-icon {
+  display: flex;
+  align-items: center;
+}
+
+#header-links {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  justify-content: space-around;
+}
+
+#header-icon {
+  font-weight: bold;
+}
+#header a {
+  color: #212529;
+}
+
+#header a:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+
+@media (max-width: 880px) {
+  #header-links {
+    display: none !important;
+  }
+}
