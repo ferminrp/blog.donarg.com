@@ -7,7 +7,7 @@
   align-items: center;
   padding-left: 10vw;
   padding-right: 10vw;
-  box-shadow: 20px 3px 10px #80808047
+  box-shadow: 20px 3px 10px #80808047;
 }
 
 #header p {
@@ -117,6 +117,12 @@ h3 {
 
 .content p {
   color: #37352f;
+}
+
+img {
+  max-width: 100%;
+  box-shadow: -10px 10px 10px #80808047;
+  border-radius: 10px;
 }
 
 @media (max-width: 880px) {
