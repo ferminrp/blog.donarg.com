@@ -125,6 +125,10 @@ h1 {
   font-size: 43px;
 }
 
+h3 {
+  font-size: 1.3rem;
+}
+
 .content {
   display:flex;
   flex-direction: column;
@@ -134,4 +138,8 @@ h1 {
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.content p {
+  color: #37352f;
 }
