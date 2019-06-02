@@ -163,6 +163,61 @@ footer a:hover {
   margin-left: 15px;
 }
 
+.blogposts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.post {
+  width: 90vw;
+  box-shadow: -10px 10px 10px #80808047;
+  border-radius: 10px;
+  color: #212529;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #e9ecef;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grow { transition: all .3s ease-in-out; }
+.grow:hover { transform: scale(1.05); }
+
+.post h6 {
+  font-size: 1.6rem;
+}
+
+.post p {
+  margin-bottom: 0px;
+}
+
+.post-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.post-image {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+a:hover {
+  text-decoration: none!important;
+}
 
 @media (max-width: 880px) {
   #header-links {
