@@ -9,5 +9,5 @@ url = 'https://api.sheety.co/80ce190e-9a4f-47d2-a2a6-d71381da3e01'
     var first_title = obj[0].titulo;
     console.log(first_title)
     console.log("----");
-    console.log(obj[2:5])
+    console.log(obj.slice(5));
   });
