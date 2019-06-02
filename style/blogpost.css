@@ -154,6 +154,6 @@ img {
     max-width: 70vw;
   }
   .post-image {
-    display: none!important;
+    display: none !important;
   }
 }
