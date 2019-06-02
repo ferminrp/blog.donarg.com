@@ -91,31 +91,6 @@ footer a:hover {
   margin-left: 15px;
 }
 
-
-@media (max-width: 880px) {
-  #header-links {
-    display: none !important;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  .hero-text {
-    margin-left: 10vw;
-  }
-  h2 {
-    font-size: 2em !important;
-  }
-  .footer-links {
-    display: none;
-  }
-  #email-field {
-    max-width: 225px;
-  }
-  .content {
-    max-width: 90vw;
-  }
-}
-
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
@@ -142,4 +117,28 @@ h3 {
 
 .content p {
   color: #37352f;
+}
+
+@media (max-width: 880px) {
+  #header-links {
+    display: none !important;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .hero-text {
+    margin-left: 10vw;
+  }
+  h2 {
+    font-size: 2em !important;
+  }
+  .footer-links {
+    display: none;
+  }
+  #email-field {
+    max-width: 225px;
+  }
+  .content {
+    max-width: 90vw;
+  }
 }
