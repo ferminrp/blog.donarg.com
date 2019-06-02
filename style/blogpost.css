@@ -120,9 +120,10 @@ h3 {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   box-shadow: -10px 10px 10px #80808047;
   border-radius: 10px;
+  text-align: center;
 }
 
 @media (max-width: 880px) {
