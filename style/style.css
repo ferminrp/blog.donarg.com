@@ -238,4 +238,7 @@ a:hover {
   #email-field {
     max-width: 225px;
   }
+  post-image {
+    display: none;
+  }
 }
